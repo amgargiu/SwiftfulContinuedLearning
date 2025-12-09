@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7346AF6F2EE8A8ED0052B1B9 /* Tada-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7346AF6E2EE8A8ED0052B1B9 /* Tada-sound.mp3 */; };
+		7346AF722EE8A91B0052B1B9 /* Badum-tss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7346AF712EE8A91B0052B1B9 /* Badum-tss.mp3 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		7346AF6E2EE8A8ED0052B1B9 /* Tada-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tada-sound.mp3"; sourceTree = "<group>"; };
+		7346AF712EE8A91B0052B1B9 /* Badum-tss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Badum-tss.mp3"; sourceTree = "<group>"; };
 		73F950EA2EE75AE6005B8021 /* SwiftfulContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -29,9 +36,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7346AF682EE8A8550052B1B9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7346AF6E2EE8A8ED0052B1B9 /* Tada-sound.mp3 */,
+				7346AF712EE8A91B0052B1B9 /* Badum-tss.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		73F950E12EE75AE5005B8021 = {
 			isa = PBXGroup;
 			children = (
+				7346AF682EE8A8550052B1B9 /* Sounds */,
 				73F950EC2EE75AE6005B8021 /* SwiftfulContinuedLearning */,
 				73F950EB2EE75AE6005B8021 /* Products */,
 			);
@@ -109,6 +126,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7346AF6F2EE8A8ED0052B1B9 /* Tada-sound.mp3 in Resources */,
+				7346AF722EE8A91B0052B1B9 /* Badum-tss.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +291,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,7 +323,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
