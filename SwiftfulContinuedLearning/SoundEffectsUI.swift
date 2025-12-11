@@ -10,7 +10,7 @@ import AVKit
 
 class SoundManager {
     // Creating a single instance of the sound manager - initializing here once for whole app
-    static let instance = SoundManager()
+    static let instance = SoundManager() // Singleton
     
     //Variable not initlized in class - needs to be by init
     var player: AVAudioPlayer?
