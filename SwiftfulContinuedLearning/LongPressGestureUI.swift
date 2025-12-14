@@ -29,7 +29,7 @@ struct LongPressGestureUI: View {
                     .background(.black)
                     .cornerRadius(10)
                     .onLongPressGesture(minimumDuration: 1, maximumDistance: 50) { (isPressing) in
-                        //Start of Press to the min duration
+                        //from Start of Press --> the min duration
                         if isPressing {
                             withAnimation(.easeOut(duration: 1)) {
                                 isComplete = true
@@ -44,7 +44,7 @@ struct LongPressGestureUI: View {
                             }
                         }
                     } perform : {
-                        //at the min duration - ending action
+                        //at the min duration - resulting action
                         withAnimation(.easeInOut){
                             isSuccess = true
                         }
