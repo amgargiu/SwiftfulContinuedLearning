@@ -90,7 +90,6 @@ class NotificationManager {
 }
 
 
-
 struct LocalNotificationsView: View {
     var body: some View {
         

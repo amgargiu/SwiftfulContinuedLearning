@@ -38,7 +38,6 @@ struct HapticsUI: View {
             Button("medium") { HapticManager.instance.impact(style: .medium)}
             Button("rigid") { HapticManager.instance.impact(style: .rigid)}
             Button("heavy") { HapticManager.instance.impact(style: .heavy)}
-
             
         }
     }

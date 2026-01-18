@@ -77,6 +77,9 @@ class CoreDataViewModel: ObservableObject {
 }
 
 
+// MARK: VIEW
+
+
 struct CoreDataMVVMUI: View {
     
     @StateObject var vm: CoreDataViewModel = CoreDataViewModel()

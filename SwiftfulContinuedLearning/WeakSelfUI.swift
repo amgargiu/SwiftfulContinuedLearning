@@ -34,7 +34,7 @@ struct WeakSelfUI: View {
 
 
 
-// second view
+// Second Screen view
 
 struct WeakSelfSecondScreen: View {
     
@@ -54,7 +54,7 @@ struct WeakSelfSecondScreen: View {
     }
 }
 
-// ViewModel for Second View
+// ViewModel for Second Screen View
 
 class WeakSeldSecondScreenViewModel: ObservableObject {
     

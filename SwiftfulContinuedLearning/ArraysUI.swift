@@ -51,7 +51,7 @@ class ArrayModViewModel: ObservableObject {
 
         // MAP
         mappedArray = dataArray.map({ $0.name ?? "Error"})
-        mappedArray = dataArray.map { user in // mappedArray is type [String]
+        mappedArray = dataArray.map { user in // mappedArray is type [String],
             user.name ?? "Error"
         }
 

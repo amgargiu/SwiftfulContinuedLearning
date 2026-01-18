@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulContinuedLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            JSONCombineUI()
+            FileManagerUI()
         }
     }
 }
